@@ -2,6 +2,19 @@
 
 [English](README.md) | [日本語](README.ja.md)
 
+> [!IMPORTANT]
+> **Development has moved to [tommie-jp/tommie-fence](https://github.com/tommie-jp/tommie-fence).**
+> The circuit, breadboard and perfboard fences are now kept in one monorepo.
+> This repository is a read-only archive.
+>
+> - **Latest `.vsix`**: [tommie-fence releases](https://github.com/tommie-jp/tommie-fence/releases)
+>   (`circuit-fence-v0.3.1` and later)
+> - **Code and grammar**: [packages/circuit-fence](https://github.com/tommie-jp/tommie-fence/tree/main/packages/circuit-fence)
+> - **History**: every commit came along
+>   (`git log packages/circuit-fence` reaches back to the first one)
+>
+> The releases kept here end at `v0.3.0`; later ones are published over there.
+
 A VS Code extension that renders ` ```circuit ` fences (YAML) in Markdown
 as circuit diagrams.
 

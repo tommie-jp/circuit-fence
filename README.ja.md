@@ -2,6 +2,19 @@
 
 [English](README.md) | [日本語](README.ja.md)
 
+> [!IMPORTANT]
+> **開発は [tommie-jp/tommie-fence](https://github.com/tommie-jp/tommie-fence) へ移りました。**
+> circuit / breadboard / perfboard の 3 つのフェンスを 1 つのモノレポにまとめています。
+> このリポジトリは読み取り専用の保管庫です。
+>
+> - **最新の `.vsix`**: [tommie-fence の Releases](https://github.com/tommie-jp/tommie-fence/releases)
+>   (`circuit-fence-v0.3.1` 以降)
+> - **コードと文法**: [packages/circuit-fence](https://github.com/tommie-jp/tommie-fence/tree/main/packages/circuit-fence)
+> - **履歴**: 全コミットが移行先にあります
+>   (`git log packages/circuit-fence` で最初のコミットまで遡れます)
+>
+> ここに残る Release は `v0.3.0` までです。以降はあちらで出ます。
+
 Markdown の ` ```circuit ` フェンス (YAML) を回路図としてレンダリングする
 VS Code 拡張機能。
 
